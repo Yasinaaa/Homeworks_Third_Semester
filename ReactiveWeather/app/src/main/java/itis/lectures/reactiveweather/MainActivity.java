@@ -5,6 +5,17 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
+import com.octo.android.robospice.SpiceManager;
+import com.octo.android.robospice.persistence.exception.SpiceException;
+import com.octo.android.robospice.request.listener.RequestListener;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import rx.Observable;
+import rx.android.schedulers.AndroidSchedulers;
+import rx.schedulers.Schedulers;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -14,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
     };
 
     private WeatherAdapter mWeatherAdapter;
+    private List<Weather> mWeathers;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,10 +37,22 @@ public class MainActivity extends AppCompatActivity {
         RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recyclerView);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
-        mWeatherAdapter = new WeatherAdapter(this);
+        mWeathers = new ArrayList<Weather>();
+        getWeathers();
+        mWeatherAdapter = new WeatherAdapter(this, mWeathers);
         recyclerView.setAdapter(mWeatherAdapter);
+
     }
 
-    //TODO : add weather forecast for all weather; use any rx architecture you like
+    private void getWeathers(){
+        for(String city: WEATHER_ITEMS){
+
+            Observable<Weather> mObservable = ApiFactory.weatherFromQuery(city);
+
+            mObservable.subscribeOn(Schedulers.newThread())
+                    .observeOn(AndroidSchedulers.mainThread())
+                    .subscribe(weather -> mWeathers.add(weather));
+        }
+    }
 
 }
