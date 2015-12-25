@@ -11,7 +11,6 @@ import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.location.LocationServices;
-import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.model.LatLng;
 import com.octo.android.robospice.SpiceManager;
 import com.octo.android.robospice.persistence.exception.SpiceException;
@@ -20,11 +19,14 @@ import com.octo.android.robospice.request.listener.RequestListener;
 import ru.itis.myweather2.model.Forecast;
 import ru.itis.myweather2.openweatherapi.ForecastService;
 import ru.itis.myweather2.openweatherapi.WeatherRequest;
+import ru.itis.myweather2.sync.SyncAdapter;
 
 
 public class MainActivity extends AppCompatActivity implements
         GoogleApiClient.ConnectionCallbacks,
-        GoogleApiClient.OnConnectionFailedListener{
+        GoogleApiClient.OnConnectionFailedListener,
+        ForecastFragment.Callback {
+
 
 
     private static final String TAG = "MainActivity";
@@ -37,7 +39,7 @@ public class MainActivity extends AppCompatActivity implements
     private LatLng currentLatLng;
     private Forecast mForecast;
 
-    private SpiceManager spiceManager = new SpiceManager(ForecastService.class);
+    public static SpiceManager spiceManager = new SpiceManager(ForecastService.class);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -78,6 +80,8 @@ public class MainActivity extends AppCompatActivity implements
         super.onSaveInstanceState(outState);
         outState.putBoolean(KEY_IN_RESOLUTION, mIsInResolution);
     }
+    // since we read the location when we create the loader, all we need to do is restart things
+
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
@@ -129,7 +133,8 @@ public class MainActivity extends AppCompatActivity implements
            // ForecastFragment forecastFragment =  ((ForecastFragment)getSupportFragmentManager().findFragmentById(R.id.fragment_forecast));
          //   forecastFragment.setUseTodayLayout(!mTwoPane);
 
-            //SunshineSyncAdapter.initializeSyncAdapter(this);
+            SyncAdapter.initializeSyncAdapter(this);
+            SyncAdapter.syncImmediately(getBaseContext());
         }
     }
 

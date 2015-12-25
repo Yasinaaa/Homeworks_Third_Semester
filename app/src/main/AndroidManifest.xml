@@ -20,9 +20,9 @@
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
-    <permission android:name="com.example.yasina.firsttask.permission.MAPS_RECEIVE"
+    <permission android:name="ru.itis.myweather2.permission.MAPS_RECEIVE"
         android:protectionLevel="signature"/>
-    <uses-permission android:name="com.example.yasina.firsttask.permission.MAPS_RECEIVE"/>
+    <uses-permission android:name="ru.itis.myweather2.permission.MAPS_RECEIVE"/>
 
     <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
@@ -56,6 +56,35 @@
             android:value="@integer/google_play_services_version" />
 
         <service android:name=".openweatherapi.ForecastService"/>
+
+        <provider
+            android:authorities="@string/content_authority"
+            android:name=".dataa.WeatherProvider"
+            android:exported="false"
+            android:syncable="true" />
+
+        <!-- SyncAdapter's dummy authentication service -->
+        <service android:name=".sync.AuthenticatorService">
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator" />
+            </intent-filter>
+            <meta-data
+                android:name="android.accounts.AccountAuthenticator"
+                android:resource="@xml/authenticator" />
+        </service>
+
+        <!-- The SyncAdapter service -->
+        <service
+            android:name=".sync.SyncService"
+            android:exported="true"
+            >
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter" />
+            </intent-filter>
+            <meta-data
+                android:name="android.content.SyncAdapter"
+                android:resource="@xml/syncadapter" />
+        </service>
 
     </application>
 

@@ -6,14 +6,154 @@
         jumboMode="false"
         revision="23.0.1"
         sha1="afe8399d352713b66e597e9670c741d1e60ae923">
-        <dex dex="/home/yasina/AndroidStudioProjects/MyWeather2/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-2.0.0-b5267f2121acbc97c35e79f4caebf118fdb8dda8.jar" />
+        <dex dex="/home/yasina/Документы/University/ThirdCourse/Android/Homework/Homeworks_Third_Semester/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-2.0.0-b5267f2121acbc97c35e79f4caebf118fdb8dda8.jar" />
+    </item>
+    <item
+        jar="/home/yasina/Документы/University/ThirdCourse/Android/Homework/Homeworks_Third_Semester/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c0c912d58c9468b1f9d9769c8975afdf2c85d681">
+        <dex dex="/home/yasina/Документы/University/ThirdCourse/Android/Homework/Homeworks_Third_Semester/app/build/intermediates/pre-dexed/debug/classes-a0a4eddfcf02b4bebe47a33b066baf3e5ea8517e.jar" />
+    </item>
+    <item
+        jar="/home/yasina/Документы/University/ThirdCourse/Android/Homework/Homeworks_Third_Semester/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="/home/yasina/Документы/University/ThirdCourse/Android/Homework/Homeworks_Third_Semester/app/build/intermediates/pre-dexed/debug/classes-e5f1f5a17cb347d2cf2731ff793dedca39344862.jar" />
+    </item>
+    <item
+        jar="/home/yasina/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/90a3822c38ec8c996e84c16a3477ef632cbc87a3/commons-lang3-3.3.2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="90a3822c38ec8c996e84c16a3477ef632cbc87a3">
+        <dex dex="/home/yasina/Документы/University/ThirdCourse/Android/Homework/Homeworks_Third_Semester/app/build/intermediates/pre-dexed/debug/commons-lang3-3.3.2-af7e1155e7b62b6d7e5c43572d0186549d2d2e64.jar" />
+    </item>
+    <item
+        jar="/home/yasina/Документы/University/ThirdCourse/Android/Homework/Homeworks_Third_Semester/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="cb6fab7a71fa9ec1f483d44c5fca65ab469d8aca">
+        <dex dex="/home/yasina/Документы/University/ThirdCourse/Android/Homework/Homeworks_Third_Semester/app/build/intermediates/pre-dexed/debug/classes-af058ba06b28570cd8db27b7a1a9df3edcd8eef2.jar" />
+    </item>
+    <item
+        jar="/home/yasina/Документы/University/ThirdCourse/Android/Homework/Homeworks_Third_Semester/app/build/intermediates/exploded-aar/com.google.maps.android/android-maps-utils/0.4/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4b1a7fac58cc85b115adee653a10b6300f90951a">
+        <dex dex="/home/yasina/Документы/University/ThirdCourse/Android/Homework/Homeworks_Third_Semester/app/build/intermediates/pre-dexed/debug/classes-ff6406dba5fd4fe7516d36c661b7f7008bb23e2a.jar" />
+    </item>
+    <item
+        jar="/home/yasina/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-io/1.3.2/b6dde38349ba9bb5e6ea6320531eae969985dae5/commons-io-1.3.2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b6dde38349ba9bb5e6ea6320531eae969985dae5">
+        <dex dex="/home/yasina/Документы/University/ThirdCourse/Android/Homework/Homeworks_Third_Semester/app/build/intermediates/pre-dexed/debug/commons-io-1.3.2-dbd37e53b41827905d9cd5c2f42ef14dcd21ae4b.jar" />
+    </item>
+    <item
+        jar="/home/yasina/Документы/University/ThirdCourse/Android/Homework/Homeworks_Third_Semester/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/libs/internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="/home/yasina/Документы/University/ThirdCourse/Android/Homework/Homeworks_Third_Semester/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.0-6839d62937a1faab7ec0c5adf38ab3a468571e45.jar" />
+    </item>
+    <item
+        jar="/home/yasina/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="/home/yasina/Документы/University/ThirdCourse/Android/Homework/Homeworks_Third_Semester/app/build/intermediates/pre-dexed/debug/gson-2.2.4-ed499da2837b7dbd802bfe7a9e7ca3cbab4202ca.jar" />
+    </item>
+    <item
+        jar="/home/yasina/.gradle/caches/modules-2/files-2.1/com.octo.android.robospice/robospice/1.4.14/fffe1563473feb2f956608554d3e97ad805914a7/robospice-1.4.14.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="fffe1563473feb2f956608554d3e97ad805914a7">
+        <dex dex="/home/yasina/Документы/University/ThirdCourse/Android/Homework/Homeworks_Third_Semester/app/build/intermediates/pre-dexed/debug/robospice-1.4.14-1e84a561138b1e4bb0ce51529abebf86fb109f35.jar" />
+    </item>
+    <item
+        jar="/home/yasina/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.0/support-annotations-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="/home/yasina/Документы/University/ThirdCourse/Android/Homework/Homeworks_Third_Semester/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.0-a327b1981e62ea989cb2a8dfaebd0c51c45ef16d.jar" />
+    </item>
+    <item
+        jar="/home/yasina/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/1.6.1/efb0a36546aa8857ab8df358b106c1817e03cbee/retrofit-1.6.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="efb0a36546aa8857ab8df358b106c1817e03cbee">
+        <dex dex="/home/yasina/Документы/University/ThirdCourse/Android/Homework/Homeworks_Third_Semester/app/build/intermediates/pre-dexed/debug/retrofit-1.6.1-a1f4dbb7771073f2aead9bbfb5a9728e7a0739c0.jar" />
+    </item>
+    <item
+        jar="/home/yasina/.gradle/caches/modules-2/files-2.1/com.octo.android.robospice/robospice-retrofit/1.4.14/c5e93129d2df923119f8ee659b3723dd0d631d1d/robospice-retrofit-1.4.14.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c5e93129d2df923119f8ee659b3723dd0d631d1d">
+        <dex dex="/home/yasina/Документы/University/ThirdCourse/Android/Homework/Homeworks_Third_Semester/app/build/intermediates/pre-dexed/debug/robospice-retrofit-1.4.14-42c0c32ba91c038eb56181baf8ff295f96289ae6.jar" />
+    </item>
+    <item
+        jar="/home/yasina/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.5.4/5dfa42af84584b4a862ea488da84bbbebbb06c35/jackson-databind-2.5.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5dfa42af84584b4a862ea488da84bbbebbb06c35">
+        <dex dex="/home/yasina/Документы/University/ThirdCourse/Android/Homework/Homeworks_Third_Semester/app/build/intermediates/pre-dexed/debug/jackson-databind-2.5.4-a2f3ecf71d229b9f2a06b93cb2d0efa5de3c42c0.jar" />
+    </item>
+    <item
+        jar="/home/yasina/.gradle/caches/modules-2/files-2.1/com.octo.android.robospice/robospice-cache/1.4.14/1a13bea0b3ae105c44cb6be7fc76b6d36098faf5/robospice-cache-1.4.14.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1a13bea0b3ae105c44cb6be7fc76b6d36098faf5">
+        <dex dex="/home/yasina/Документы/University/ThirdCourse/Android/Homework/Homeworks_Third_Semester/app/build/intermediates/pre-dexed/debug/robospice-cache-1.4.14-8fb12f7718a0a630e0d39cc8aa1b5fbfd8bb99b4.jar" />
+    </item>
+    <item
+        jar="/home/yasina/Документы/University/ThirdCourse/Android/Homework/Homeworks_Third_Semester/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
+        <dex dex="/home/yasina/Документы/University/ThirdCourse/Android/Homework/Homeworks_Third_Semester/app/build/intermediates/pre-dexed/debug/classes-06d3eead69e9ed45a9c6c11bf35528fcb00ce906.jar" />
     </item>
     <item
         jar="/home/yasina/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.0.0/4c8d1536dba3812cc1592090dc20c47a4ed3c35e/okhttp-2.0.0.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="4c8d1536dba3812cc1592090dc20c47a4ed3c35e">
-        <dex dex="/home/yasina/AndroidStudioProjects/MyWeather2/app/build/intermediates/pre-dexed/debug/okhttp-2.0.0-640b90e69c6e0c0585593aa886e7b39f01674631.jar" />
+        <dex dex="/home/yasina/Документы/University/ThirdCourse/Android/Homework/Homeworks_Third_Semester/app/build/intermediates/pre-dexed/debug/okhttp-2.0.0-640b90e69c6e0c0585593aa886e7b39f01674631.jar" />
+    </item>
+    <item
+        jar="/home/yasina/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/home/yasina/Документы/University/ThirdCourse/Android/Homework/Homeworks_Third_Semester/app/build/intermediates/pre-dexed/debug/okio-1.6.0-eb973a85badae5eb29cb70fd7f52b51ffc5ad432.jar" />
+    </item>
+    <item
+        jar="/home/yasina/Документы/University/ThirdCourse/Android/Homework/Homeworks_Third_Semester/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4a135d56554069e5d0ff80e3220e887e57146ee5">
+        <dex dex="/home/yasina/Документы/University/ThirdCourse/Android/Homework/Homeworks_Third_Semester/app/build/intermediates/pre-dexed/debug/classes-6879bf47b64bed70c3b8307b350e5b2e99a360c3.jar" />
+    </item>
+    <item
+        jar="/home/yasina/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.6.0/a0990e2e812ac6639b6ce955c91b13228500476e/jackson-annotations-2.6.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a0990e2e812ac6639b6ce955c91b13228500476e">
+        <dex dex="/home/yasina/Документы/University/ThirdCourse/Android/Homework/Homeworks_Third_Semester/app/build/intermediates/pre-dexed/debug/jackson-annotations-2.6.0-23eb6bb3d6ba141738eb5b0ef157bf38b5d14a43.jar" />
+    </item>
+    <item
+        jar="/home/yasina/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.6.0/ba4506602d0f51d214ba16b80e2e70a714152a20/jackson-core-2.6.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ba4506602d0f51d214ba16b80e2e70a714152a20">
+        <dex dex="/home/yasina/Документы/University/ThirdCourse/Android/Homework/Homeworks_Third_Semester/app/build/intermediates/pre-dexed/debug/jackson-core-2.6.0-5c36bd5305593328c4516fbf5ec9e3af54d41dbe.jar" />
+    </item>
+    <item
+        jar="/home/yasina/Документы/University/ThirdCourse/Android/Homework/Homeworks_Third_Semester/app/build/intermediates/exploded-aar/com.android.support/design/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
+        <dex dex="/home/yasina/Документы/University/ThirdCourse/Android/Homework/Homeworks_Third_Semester/app/build/intermediates/pre-dexed/debug/classes-bb620cf2ee1af28c3eefbacbaaa01402c1fe8361.jar" />
     </item>
 
 </items>
