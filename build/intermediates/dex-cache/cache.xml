@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/yasina/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-urlconnection/2.0.0/afe8399d352713b66e597e9670c741d1e60ae923/okhttp-urlconnection-2.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="afe8399d352713b66e597e9670c741d1e60ae923">
+        <dex dex="/home/yasina/AndroidStudioProjects/MyWeather2/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-2.0.0-b5267f2121acbc97c35e79f4caebf118fdb8dda8.jar" />
+    </item>
+    <item
+        jar="/home/yasina/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.0.0/4c8d1536dba3812cc1592090dc20c47a4ed3c35e/okhttp-2.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4c8d1536dba3812cc1592090dc20c47a4ed3c35e">
+        <dex dex="/home/yasina/AndroidStudioProjects/MyWeather2/app/build/intermediates/pre-dexed/debug/okhttp-2.0.0-640b90e69c6e0c0585593aa886e7b39f01674631.jar" />
+    </item>
+
+</items>
